@@ -1,0 +1,60 @@
+body,
+html
+{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+svg
+{
+    width: 100vw;
+    height: auto;
+}
+
+.land:hover
+{
+    fill: #000;
+    cursor: pointer;
+}
+
+#AE
+{
+    fill: aqua;
+    position: relative;
+}
+
+#AE::before
+{
+    position: absolute;
+    content: 'lknkj ';
+    width: 20px;
+    height: 20px;
+    background: blue;
+}
+
+.test
+{
+    background: red;
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    /* bottom: 50%; */
+}
+
+#year
+{
+    position: relative;
+    bottom: 0;
+}
+
+/* input[type="range"]:before {
+    position: absolute;
+    left:0em;
+    content: attr(min);
+}
+input[type="range"]:after {
+    position: absolute;
+    right: 0em;
+    content: attr(max);
+} */

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "optimisme/optimisme-cache": "^1.2"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "optimisme/optimisme-cache",
+    "type": "library",
+    "description": "A simple cache package",
+    "homepage": "https://github.com/RomainPct/OptimismeCache",
+    "license": "Apache-2.0",
+    "keywords": ["cache", "caching", "html", "simple"],
+    "authors": [
+        {
+            "name": "Romain Penchenat",
+            "email": "romain.penchenat@icloud.com",
+            "homepage": "https://romainpenchenat.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Optimisme\\": "src/Optimisme/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

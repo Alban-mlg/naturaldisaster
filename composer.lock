@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "af5cbce55c050d57caad25f42f4f0c31",
+    "packages": [
+        {
+            "name": "optimisme/optimisme-cache",
+            "version": "V1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RomainPct/OptimismeCache.git",
+                "reference": "46057aa7d4e710484e6bb7fe6d0abe9618114219"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RomainPct/OptimismeCache/zipball/46057aa7d4e710484e6bb7fe6d0abe9618114219",
+                "reference": "46057aa7d4e710484e6bb7fe6d0abe9618114219",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Optimisme\\": "src/Optimisme/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Romain Penchenat",
+                    "email": "romain.penchenat@icloud.com",
+                    "homepage": "https://romainpenchenat.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple cache package",
+            "homepage": "https://github.com/RomainPct/OptimismeCache",
+            "keywords": [
+                "Simple",
+                "cache",
+                "caching",
+                "html"
+            ],
+            "time": "2020-04-30T06:40:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
